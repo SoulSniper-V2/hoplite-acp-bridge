@@ -1,0 +1,32 @@
+{
+  "name": "hoplite-acp-bridge",
+  "version": "0.3.0",
+  "description": "Makes Hoplite's cloud coding agents work well in T3 Code (and other ACP clients), with no client changes.",
+  "type": "module",
+  "bin": {
+    "hoplite-acp-bridge": "bin/hoplite-acp-bridge.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoulSniper-V2/hoplite-acp-bridge.git"
+  },
+  "keywords": [
+    "hoplite",
+    "t3code",
+    "acp",
+    "agent-client-protocol"
+  ]
+}
